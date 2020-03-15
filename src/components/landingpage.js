@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
-import {Grid, Cell } from 'react-mdl'
+import '../components/css/landingpage.css';
+
 
 
 class LandingPage extends Component {
     render() {
         return(
-            <div style={{width: '250%', margin: 'auto'}}>
-                <Grid className='landing-grid'>
-                    <Cell col={12}>
-                        <img src="https://i.ibb.co/FgKv0wQ/Eco-Construction-Systems-Ltd-logo.png"
-                        alt="Logo"
-                        className="logo-img"
-                        />
-
-
-                    </Cell>
-                </Grid>
-            </div>
+            <div id="CrossFade"><img src="https://i.ibb.co/1Qt25KW/12.jpg" alt="img"/>
+            <img src="https://i.ibb.co/7JBm4xS/4.jpg" alt="img"/>
+            <img src="https://i.ibb.co/CJJkkH6/5.jpg" alt="img"/>
+            <img src="https://i.ibb.co/7CZJrmG/7.jpg" alt="img"/>
+            <img src="https://i.ibb.co/5TvrzHS/1.jpg" alt="img"/>
+            <img src="https://i.ibb.co/D86y9BR/2.jpg" alt="img"/>
+            <img src="https://i.ibb.co/w6VB0Vq/3.jpg" alt="img"/>
+            <img src="../../public/img/landing/" alt="img"/>
+                <div class="intro">
+                    <h1>Eco Construction Systems Ltd</h1>
+                    <h3>We have 15 years of experience. We care about cleanliness, details and security. 
+                        With us, you may not worry about the final result.</h3>
+                </div>
+                </div>
         )
     }
 };
