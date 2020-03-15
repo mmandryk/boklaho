@@ -1,0 +1,127 @@
+/*-------------------------------------------------LANDING PAGE*/
+.landing-grid {
+    /*  background: #11998e;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #38ef7d 0.2, #11998e 0.2);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #38ef7d 0.2, #11998e 0.2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-image: url(https://i.ibb.co/5TvrzHS/1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+    
+  /* -------------------------------------------------------------landing page--- */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    font-size: calc(0.5vw + 1vh + 0.5vmin);
+  }
+  body {
+    font: 100 50%/1.5 'Open Sans Condensed', sans-serif;
+  }
+  .intro {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    position: relative;
+    margin: 2em;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2em;
+    max-width: 26em;
+    text-align: center;
+  }
+  .intro h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0.5em;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+  }
+  .intro h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0.5em;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+  }
+  #CrossFade {
+    background: #fff;
+    display: flex;
+    align-items: flex-end;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+  }
+  #CrossFade img {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(1.4) rotate(12deg);
+            transform: scale(1.4) rotate(12deg);
+    -webkit-animation: CrossFade 40s infinite;
+            animation: CrossFade 40s infinite;
+  }
+  #CrossFade img:nth-child(6) {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+  }
+  #CrossFade img:nth-child(5) {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+  }
+  #CrossFade img:nth-child(4) {
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+  }
+  #CrossFade img:nth-child(3) {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+  }
+  #CrossFade img:nth-child(2) {
+    -webkit-animation-delay: 30s;
+            animation-delay: 30s;
+  }
+  #CrossFade img:nth-child(1) {
+    -webkit-animation-delay: 36s;
+            animation-delay: 36s;
+  }
+
+  @-webkit-keyframes CrossFade {
+    25% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(0);
+              transform: scale(1) rotate(0);
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+  @keyframes CrossFade {
+    25% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(0);
+              transform: scale(1) rotate(0);
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+  
