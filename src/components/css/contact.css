@@ -1,6 +1,6 @@
 
     body{
-      background-image: url(https://i.ibb.co/rxknZ07/Eco-Construction-Systems-Ltd-logo-big.png);
+      /* background-image: url(https://i.ibb.co/rxknZ07/Eco-Construction-Systems-Ltd-logo-big.png); */
       background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -16,6 +16,9 @@
     width: 100%;
     }
     .centered {
+      background-image: url(https://i.ibb.co/rxknZ07/Eco-Construction-Systems-Ltd-logo-big.png);
+      background-repeat: no-repeat;
+      background-size: contain;
       position: fixed;
       top: 50%;
       left: 50%;

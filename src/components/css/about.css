@@ -1,7 +1,7 @@
 /*-------------------------------------------------ABOUT*/
 *{box-sizing: border-box; -webkit-box-sizing: border-box; }
 html, body { height: 100%; overflow: visible; }
-body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
+body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; background-attachment: unset; }
 
 
   
@@ -9,7 +9,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   
   .slideshow {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     margin: 0 auto;
     background: white;
     overflow: visible;
@@ -53,7 +53,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   }
   .slide .slide__content h5 {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: xx-large;
+    font-size: auto;
     margin-bottom: 0.5em;
     line-height: 1;
     font-weight: bold;
@@ -61,7 +61,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   .slide .slide__content h4{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: x-large;
-    margin-top: 1.5em;
+    margin-top: 1.0em;
     line-height: 1.5;
   }
   .slide .slide__content h3{
@@ -91,7 +91,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   .slide:nth-child(3) {
     background: url("https://media.giphy.com/media/dWfJOmzG6jstKX9Fub/giphy.gif");
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position: center;
     overflow: visible;
   }
@@ -108,7 +108,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   .slide:nth-child(6) {
     background: url("https://i.ibb.co/YtNjkm1/insulations.png");
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position: center;
   }
   .slide:nth-child(6):after {
@@ -124,7 +124,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   .slide:nth-child(9) {
     background: url("https://www.wbs-ltd.co.uk/wp-content/uploads/2019/08/logo.svg");
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position: center;
   }
   .slide:nth-child(9):after {
@@ -140,7 +140,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   .slide:nth-child(12) {
     background: url("https://i.ibb.co/LNJjG5V/Build-Up-House-Cut-Away.jpg");
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100%;
     background-position: center;
   }
   .slide:nth-child(12):after {
@@ -175,7 +175,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
     color: #AAA;
     font-weight: bold;
     display: block;
-    width: calc((50% / 5) - 2%);
+    width: calc((50% / 4) - 2%);
     margin: 5px 1%;
     height: 50px;
     line-height: 50px;
@@ -193,19 +193,19 @@ body { margin: 0; font: 16px/1.3 sans-serif; overflow: visible; }
   label:nth-child(1) {
     visibility: visible;
     display: block;
-    left: calc(50% + (0 * (50% / 5)));
+    left: calc(50% + (0 * (50% / 4)));
     border-bottom-color: #35e97a;
   }
   label:nth-child(4) {
-    left: calc(50% + (1 * (50% / 5)));
+    left: calc(50% + (1 * (50% / 4)));
     border-bottom-color: #35e97a;
   }
   label:nth-child(7) {
-    left: calc(50% + (2 * (50% / 5)));
+    left: calc(50% + (2 * (50% / 4)));
     border-bottom-color: #35e97a;
   }
   label:nth-child(10) {
-    left: calc(50% + (3 * (50% / 5)));
+    left: calc(50% + (3 * (50% / 4)));
     border-bottom-color: #35e97a;
   }
   /* label:nth-child(13) {
